@@ -68,6 +68,11 @@ export class FuncionariosComponent implements OnInit {
     this.router.navigate(['edit', funcionario], {relativeTo: this.route})
   }
 
+  openProfile(funcionario: Funcionario){
+    console.log("to aqui meu caro amigo" + funcionario.idade)
+    this.router.navigate(['profile'], {relativeTo: this.route})
+  }
+
 
 
 }

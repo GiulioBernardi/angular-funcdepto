@@ -26,6 +26,11 @@
         </mat-header-cell>
 
         <mat-cell *matCellDef="let element">
+
+          <button mat-icon-button color="primary" aria-label="Abrir informações de funcionario">
+            <mat-icon (click)="openProfile(element)">info</mat-icon>
+          </button>
+
           <button mat-icon-button color="primary" aria-label="Editar funcionario">
             <mat-icon (click)="onEdit(element)">edit</mat-icon>
           </button>

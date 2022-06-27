@@ -8,6 +8,7 @@ import { FuncionarioFormComponent } from './funcionario-form/funcionario-form.co
 import { FuncionariosRoutingModule } from './funcionarios-routing.module';
 import { FuncionariosComponent } from './funcionarios/funcionarios.component';
 import { FuncionarioFormEditComponent } from './funcionario-form-edit/funcionario-form-edit.component';
+import { FuncionarioProfileComponent } from './funcionario-profile/funcionario-profile.component';
 
 
 
@@ -15,7 +16,8 @@ import { FuncionarioFormEditComponent } from './funcionario-form-edit/funcionari
   declarations: [
     FuncionariosComponent,
     FuncionarioFormComponent,
-    FuncionarioFormEditComponent
+    FuncionarioFormEditComponent,
+    FuncionarioProfileComponent
   ],
   imports: [
     CommonModule,
